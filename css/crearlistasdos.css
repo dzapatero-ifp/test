@@ -1,0 +1,192 @@
+
+body {
+  width:100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  font-family: 'Quicksand', sans-serif;
+}
+.titulo {
+  height: 5rem;
+}
+.profile {
+  position: relative;
+  height: 2.3rem;
+  width:20rem;
+  margin-left: 2rem;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 3em;
+}
+.cerrar {
+  float: right;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  margin-top: .5rem;
+  margin-right: 1rem;
+}
+.sentencia {
+  height: 4rem;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+
+}
+.tulista {
+  position: relative;
+  height: 2.3rem;
+  width: 18rem;
+  margin: 0 auto;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2em;
+}
+.datos {
+  width: 18rem;
+  position: relative;
+  margin: 0 auto;
+  height: 30rem;
+  color: white;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  line-height: 2rem;
+}
+input {
+  position: relative;
+  margin:auto;
+  width: 80%;
+  display: block;
+  height: 3rem;
+  border: none;
+  border-bottom: 2px solid rgb(149, 193, 31);
+  font-size: 1em;
+  text-align: center;
+  color: black;
+}
+.tema {
+  position: relative;
+  margin: 0 auto;
+  width: 20rem;
+  height: 6rem;
+  background-image: url(../img/temauno.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -25rem;
+  text-decoration: none;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+}
+.selecciona {
+  background-color: rgba(149, 193, 31, 0.3);
+  text-align: center;
+  width: 20rem;
+  height: 6rem;
+  font-weight: bold;
+  font-size: 2em;
+  color: white;
+  line-height: 6rem;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+.puntos {
+  margin: 0 auto;
+  margin-top: -12rem;
+  position: relative;
+  width: 28rem;
+  float: left;
+
+}
+.punto{
+  margin: 0 auto;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 5rem;
+  height: 5rem;
+  background-color: rgb(149, 193, 31);
+  border-radius: 50%;
+  float: left;
+}
+.anadir {
+  margin: 0 auto;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 5rem;
+  height: 5rem;
+  background-color: rgb(149, 193, 31);
+  border-radius: 50%;
+  float: left;
+}
+.plus {
+  background-image: url(../img/anadir.svg);
+  background-size: 3rem 3rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 5rem;
+  height: 5rem;
+  margin: 0 auto;
+}
+.otro {
+  top: 2rem;
+  margin-left: 1rem;
+  width: 3rem;
+  position: relative;
+}
+.otros {
+  background-color: rgba(36, 36, 36, 0.3);
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+.punto:nth-child(1) {
+background-image: url(../img/tu.png);
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.punto:nth-child(2){
+background-image: url(../img/amigouno.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.punto:nth-child(3) {
+  background-image: url(../img/amigodos.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.punto:nth-child(4) {
+background-image: url(../img/anadir.svg);
+background-size: 3rem 3rem;
+background-position: center;
+background-repeat: no-repeat;
+}
+.next {
+  margin-bottom: 10rem;
+}
+button {
+  position: fixed;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 8rem;
+  line-height: 30px;
+  background: rgb(149, 193, 31);
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  pointer-events:
+}
+.flechas{
+  position: relative;
+  height: 4rem;
+  width: 5rem;
+  margin: 0 auto;
+  overflow: hidden;
+}

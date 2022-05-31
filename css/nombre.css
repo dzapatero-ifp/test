@@ -1,0 +1,83 @@
+body {
+  width:100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  font-family: 'Quicksand', sans-serif;
+}
+.titulo {
+  height: 5rem;
+}
+.profile {
+  position: relative;
+  height: 2.3rem;
+  width:20rem;
+  margin-left: 2rem;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 3em;
+}
+.sentencia {
+  height: 5rem;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 8rem;
+}
+.tulista {
+  position: relative;
+  height: 2.3rem;
+  width: 20rem;
+  margin: 0 auto;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2em;
+}
+.datos {
+  width: 100%;
+  height: 30rem;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 2rem;
+}
+input {
+  position: relative;
+  margin:auto;
+  width: 80%;
+  display: block;
+  height: 4rem;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: 2px solid rgb(149, 193, 31);
+  font-size: 1em;
+  text-align: center;
+}
+textarea {
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+}
+
+button {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 10rem;
+  height: 10rem;
+  line-height: 30px;
+  background: rgb(149, 193, 31);
+  color: #fff;
+  border-radius: 50%;
+  border: none;
+  pointer-events:
+}
+.flechas{
+  position: relative;
+  height: 5rem;
+  width: 5rem;
+  margin: 0 auto;
+  overflow: hidden;
+}

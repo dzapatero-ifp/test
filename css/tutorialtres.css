@@ -1,0 +1,64 @@
+body {
+  width:100%;
+}
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  font-family: 'Quicksand', sans-serif;
+}
+.encabezado{
+  height: 5rem;
+}
+.omitir {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  float: right;
+  color: rgb(149, 193, 31);
+  margin-top: 1.4rem;
+  margin-right: 4rem;
+  font-size: 1.2em;
+}
+.mensaje {
+  width: 100%;
+  height: 5rem;
+  font-size: 4.5em;
+  margin-top: 2.5rem;
+  margin-bottom: 7.5rem;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(149, 193, 31);
+}
+.art {
+  width: 20rem;
+  height: 20rem;
+  margin: 0 auto;
+  position: relative;
+}
+.puntos {
+  margin: 0 auto;
+  margin-top: 9rem;
+  position: relative;
+  width: 12rem;
+  float: left;
+}
+.punto{
+  margin: 0 auto;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: rgb(149, 193, 31);
+  border-radius: 50%;
+  float: left;
+}
+.punto:nth-child(1) {
+background-color: rgba(149, 193, 31, 0.5);
+}
+.punto:nth-child(2) {
+background-color: rgba(149, 193, 31, 0.5);
+}
+.punto:nth-child(4) {
+background-color: rgba(149, 193, 31, 0.5);
+}

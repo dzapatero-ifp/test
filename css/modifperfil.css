@@ -1,0 +1,222 @@
+@media screen and (min-width:951px) and (orientation:landscape){
+  .titulo {
+    width: 20rem;
+    height: 5rem;
+    position: relative;
+    margin: 0 auto;
+  }
+  .texto {
+    position: relative;
+    height: 2.3rem;
+    width:20rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3em;
+    text-align: center;
+  }
+}
+@media screen and (max-width:950px) and (min-width:650px){
+  .titulo {
+    width: 20rem;
+    height: 5rem;
+    position: relative;
+    margin: 0 auto;
+  }
+  .texto {
+    position: relative;
+    height: 2.3rem;
+    width:20rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3em;
+    text-align: center;
+  }
+}
+@media screen and (max-width:649px){
+  .titulo {
+    height: 5rem;
+  }
+  .texto {
+    position: relative;
+    height: 2.3rem;
+    width:20rem;
+    margin-left: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3em;
+  }
+}
+body {
+  width: 100%;
+  background-color: rgb(149, 193, 31);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  font-family: 'Quicksand', sans-serif;
+  bac
+}
+
+.pfp {
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: 1px solid rgb(149, 193, 31);
+  background-image: url(../img/tu.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.oscurecer{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3rem;
+  width: 4rem;
+  height: 4rem;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.nombre {
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 15rem;
+  height: 2rem;
+  font-size: 2.5em;
+  text-align: center;
+  color: white;
+}
+input {
+  position: relative;
+  background-color: white;
+  margin:auto;
+  width: 15rem;
+  display: block;
+  height: 2rem;
+  border-radius: 1rem;
+  border: 1px solid rgb(149, 193, 31);
+  font-size: .5em;
+  text-align: center;
+  color: black;
+}
+.mail {
+  margin: 0 auto;
+  margin-top: 3rem;
+  width: 20rem;
+  height: 4rem;
+  font-size: 1em;
+  text-align: center;
+  color: white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.puntos {
+  margin: 0 auto;
+  width: 20rem;
+  height: 4rem;
+  font-size: 1em;
+  text-align: center;
+  color: white;
+}
+.sentence {
+  position: relative;
+  float: left;
+  width: 4rem;
+  height: 1.5rem;
+  top: 1.25rem;
+  font-weight: bold;
+}
+.datos {
+  position: relative;
+  float: right;
+  width: 10rem;
+  height: 1.5rem;
+  top: 1.25rem;
+}
+.pts {
+  position: relative;
+  float: right;
+  width: 4rem;
+  height: 1.5rem;
+  top: 1.25rem;
+}
+.modif {
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 3rem;
+  width: 9rem;
+  height: 2.3rem;
+  font-size: 1em;
+  text-align: center;
+  color: black;
+  line-height: 2.3rem;
+  border-radius: 1rem;
+  cursor: pointer;
+
+}
+.sesion {
+  margin: 0 auto;
+  margin-top: 3rem;
+  width: 20rem;
+  height: 4rem;
+  font-size: 1em;
+  text-align: right;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.cerrar {
+  width: 7rem;
+  margin-left: 13rem;
+  cursor: pointer;
+}
+
+.opciones {
+  width: 100%;
+  height: 7rem;
+  background-color: white;
+  position: fixed;
+  z-index: 1000;
+  bottom: 0;
+  float: left;
+  margin: 0 auto;
+}
+.bord {
+  position: relative;
+  margin: 0 auto;
+  top: 1.5rem;
+  width: 25rem;
+  height: 5rem;
+}
+.op {
+  float: left;
+  border: 2px solid white;
+  margin: 0 auto;
+  position: relative;
+  height: 4rem;
+  width: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+#list {
+  background-color: rgb(193, 217, 128);
+}
+#profile {
+  background-color: rgb(149, 193, 31);
+}
+#maps {
+  background-color: rgb(193, 217, 128);
+}
+.icons {
+  top: 1rem;
+  margin: 0 auto;
+  margin-left: 1rem;
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+}
+a {
+  text-decoration: none;
+}
